@@ -1,0 +1,25 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE Configuration and Workspace Files
+# Ignore specific folders for common editors
+.vscode/
+.idea/
+# Ignore common editor workspace/project files
+*.sublime-workspace
+*.sublime-project
+*~
+
+# Temporary and Log Files
+*.log
+*.bak
+/tmp
+
+# Dependency and Build Artifacts (Preparation for Growth)
+# Critical to prevent bloat if you install any Node/NPM tool
+/node_modules
+# Common output directories if you use a preprocessor or bundler
+/dist
+/build
+/out
