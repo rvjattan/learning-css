@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 90vw;
+    min-height: calc(100vh - 100px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+hr {
+    width: 75%;
+    height: 2px;
+    background-color: black;
+    margin-top: 45px;
+}
+
+section {
+    width: 15%;
+}
+
+.first {
+    margin-left: 130px;
+    display: inline-block;
+    text-align: center;
+}
+
+.second {
+    margin-left: 130px;
+    text-align: center;
+    display: inline-block;
+}
+
+.third {
+    margin-left: 130px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
