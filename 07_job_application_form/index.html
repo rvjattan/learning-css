@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Job Application Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Job Application Form</h1>
+            <form class="job-form">
+                <div class="sets">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name"/>
+                </div>
+                
+                <div class="sets">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your name"/>
+                </div>
+                
+                <div class="sets">
+                    <label for="position">Position:</label>
+                        <select id="position">
+                            <option name="Select a position" id="default">Select a position</option>
+                            <option name="developer" id="developer">Developer</option>
+                            <option name="designer" id="designer">Designer</option>
+                            <option name="manager" id="manager">Manager</option>
+                        </select>
+                </div>
+
+                <div class="sets">
+                    <fieldset class="radio-group">
+                        <legend>Availability:</legend>
+                        <input type="radio" name="availability" id="full"><label for="full">Full Time</label>
+
+                        <input type="radio" name="availability" id="part"><label for="part">Part Time</label>
+                    </fieldset>
+                </div>
+
+                <div class="sets">
+                    <label for="message">
+                        Why do you want this job?
+                    </label>
+                    <textarea id="message" name="message" placeholder="Write your motivation" type="text"></textarea>
+                </div>
+
+                <button type="submit" id="btn">Submit</button>
+            </form>
+        </div>
+    </body> 
+</html>
